@@ -34,6 +34,7 @@ a{color:inherit;text-decoration:none}
 .fade-up{animation:fadeUp .45s ease both}
 .scale-in{animation:scaleIn .35s cubic-bezier(.2,.7,.2,1) both}
 
+
 /* Nav */
 .nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(8px);background:color-mix(in srgb, var(--surface) 70%, transparent);border-bottom:1px solid var(--hair)}
 .nav-inner{height:56px;display:flex;align-items:center;gap:16px}
@@ -53,6 +54,24 @@ a{color:inherit;text-decoration:none}
   letter-spacing: .2px;
 }
 
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* left and right sides split */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+
 /* Ensure thumbnails perfectly fit the card header */
 .project-card .carousel{
   overflow: hidden;
@@ -68,6 +87,7 @@ a{color:inherit;text-decoration:none}
   height: 100%;
   object-fit: cover;           /* fill without distortion */
 }
+
 
 
 /* Hero */
@@ -127,3 +147,4 @@ a{color:inherit;text-decoration:none}
   .projects-grid{display:grid;grid-template-columns:1fr;justify-items:center;gap:16px}
   .project-card{width:min(560px,100%)}
 }
+
