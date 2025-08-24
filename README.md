@@ -65,7 +65,8 @@ brother-portfolio/
 
 ## 📸 Preview
 
-![Preview Screenshot](./preview.png)
+<img width="1859" height="961" alt="Preview" src="https://github.com/user-attachments/assets/7c5ccd5d-0501-4223-bfb4-c4be9079f877" />
+
 
 ---
 
