@@ -21,7 +21,6 @@ A modern portfolio site built with **React + Vite**, showcasing stop-motion anim
 - [React](https://react.dev/) — UI library
 - [Vite](https://vitejs.dev/) — lightning fast dev server & bundler
 - [PostCSS](https://postcss.org/) — modern CSS tooling
-- **Pure CSS (no Tailwind)** — custom handcrafted styling
 
 ---
 
@@ -50,34 +49,7 @@ brother-portfolio/
 
 ---
 
-## ⚡ Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/wJollie/brother_portfolio.git
-cd brother_portfolio
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Run the dev server
-
-```bash
-npm run dev
-```
-
-### 4. Build for production
-
-```bash
-npm run build
-```
-
----
 
 ## 🎨 Brand Palette
 
@@ -103,4 +75,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-Made with ❤️ by **Thomas Jollie**
+Made by **William Jollie**
