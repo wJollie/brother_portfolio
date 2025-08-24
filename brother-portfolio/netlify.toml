@@ -1,0 +1,11 @@
+# netlify.toml  (place at repo root, same level as brother-portfolio/)
+[build]
+  base    = "brother-portfolio"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Single Page App fallback (client-side routing)
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
