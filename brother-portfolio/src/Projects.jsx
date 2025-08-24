@@ -100,7 +100,7 @@ export default function Projects() {
     />
     <a href="#" className="brand-title">Stop-Motion Portfolio</a>
     <div className="spacer" />
-    <a className="btn" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+    <a className="btn" href="https://www.youtube.com/@Redlavarhino" target="_blank" rel="noreferrer">
       <IconYt /> YouTube Channel
     </a>
   </div>
